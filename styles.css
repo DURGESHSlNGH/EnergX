@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    overflow-x: hidden; /* Added to prevent horizontal scrolling */
+}
+
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Dark mode styles */
+.dark-mode .header1 {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Rest of the CSS remains unchanged */
+
+
+.header {
+    display: flex;
+    flex-direction: column; /* Added to stack header1 and header2 vertically */
+    height: auto; /* Changed to auto */
+}
+
+.header1 {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    background-color: #fff;
+    top: 0; /* Added to fix header1 at the top */
+    z-index: 1000; /* Added to keep header1 above header2 */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.Home {
+    padding-right: 20px;
+    font-size: 16px;
+}
+
+#N {
+    height: 50px;
+    border-radius: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+.header2 {
+    margin-top: 70px;
+    background-color: #000000;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 70px; /* Added to position header2 below header1 */
+    z-index: 999; /* Lower z-index to keep it below header1 */
+}
+
+.name1 {
+    color: white; /* Added to change text color */
+    margin-left: 15px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+#S {
+    height: 30px; /* Changed height to fit in header2 */
+    margin-right: 10px; /* Added margin for spacing */
+}
+
+.herosection {
+    width: 100%;
+    background-image: url("/Images/Designer\ \(2\).png");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    overflow: hidden; /* Added to prevent content overflow */
+}
+
+.circle{
+    height: 350px;
+    width: 350px;
+    background-image: url('/Images/Designer.png');
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the background image */
+    z-index: 100;
+    border-radius: 50%;
+    margin-left: 120px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-left: -200px;
+    z-index: 200;
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.description {
+    color: white;
+    font-size: 22px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.expertise {
+    width: 100vw;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 200px 40px 200px;
+}
+
+.h1 {
+    padding-bottom: 10px;
+    color: rgb(15, 15, 80);
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+.h2 {
+    font-size: 20px;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Added to create a gap between photos */
+    padding: 20px; /* Added padding for better spacing */
+}
+
+.p{
+    flex-basis: calc(50% - 20px); /* Set width to 50% minus the gap */
+    height: auto; /* Let height adjust based on content */
+    background-size: cover;
+    z-index: 100;
+}
+
+.p {
+    position: relative;
+    transition: all 0.4s linear 0s;
+}
+
+.p:hover {
+    transform: scale(1.04, 1.04);
+}
+
+.p > div {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 0;
+    right: 0;
+    padding: 0 10px; /* Adjust padding as needed */
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with transparency */
+}
+
+/* Adjust specific photos */
+.one > div,
+.two > div,
+.three > div,
+.four > div {
+    padding: 10px; /* Padding for text */
+    font-weight: 600;
+    color: rgb(12, 12, 12);
+}
+
+
+.one {
+    height: 300px;
+    width: 200px;
+    background-size: cover;
+    background-image: url('/Images/Photo1.png');
+}
+
+.two {
+    height: 300px;
+    width: 200px;
+    background-size: cover;
+    background-image: url('/Images/Photo2.png');
+}
+
+.three {
+    height: 300px;
+    width: 200px;
+    background-size: cover;
+    background-image: url('/Images/Photo3.png');
+}
+
+.four {
+    height: 300px;
+    width: 200px;
+    background-size: cover;
+    background-image: url('/Images/Photo4.png');
+} 
+
+
