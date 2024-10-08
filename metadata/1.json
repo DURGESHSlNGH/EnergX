@@ -1,0 +1,37 @@
+{
+    "name": "Wind Farm Project",
+    "location": "Tamil Nadu, India",
+    "description": "Large-scale wind farm project located in a windy region of Tamil Nadu, India",
+    "image": "https://cdn.britannica.com/10/222610-138-F0268996/britannica-insights-Phil-the-Fixer-renewable-energy.jpg?w=800&h=450&c=crop",
+    "id": "1",
+    "attributes": [
+      {
+        "trait_type": "Purchase Price",
+        "value": 200
+      },
+      {
+        "trait_type": "Estimated Capacity",
+        "value": "100 MW"
+      },
+      {
+        "trait_type": "Number of Turbines",
+        "value": 50
+      },
+      {
+        "trait_type": "Turbine Model",
+        "value": "Vestas V90"
+      },
+      {
+        "trait_type": "Average Wind Speed",
+        "value": "10 m/s"
+      },
+      {
+        "trait_type": "Project Status",
+        "value": "Under Development"
+      },
+      {
+        "trait_type": "Expected Completion",
+        "value": "2025"
+      }
+    ]
+  }

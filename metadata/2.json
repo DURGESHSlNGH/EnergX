@@ -1,0 +1,37 @@
+{
+    "name": "Solar Farm Project",
+    "location": "Rajasthan, India",
+    "description": "Large-scale solar farm project situated in the sun-drenched Thar Desert of Rajasthan, India",
+    "image": "https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202006/MIT-PPA-1-Press_solar_array_3.jpg?itok=42Lhjby-",
+    "id": "2",
+    "attributes": [
+      {
+        "trait_type": "Purchase Price",
+        "value": 150
+      },
+      {
+        "trait_type": "Estimated Capacity",
+        "value": "50 MW"
+      },
+      {
+        "trait_type": "Number of Panels",
+        "value": 20000
+      },
+      {
+        "trait_type": "Panel Type",
+        "value": "Monocrystalline Silicon"
+      },
+      {
+        "trait_type": "Sun Hours per Day",
+        "value": "8 hours"
+      },
+      {
+        "trait_type": "Project Status",
+        "value": "Under Construction"
+      },
+      {
+        "trait_type": "Expected Completion",
+        "value": "2024"
+      }
+    ]
+  } 
